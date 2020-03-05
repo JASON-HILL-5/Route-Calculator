@@ -142,5 +142,10 @@ window.onload = function(){
 
     recurs("https://raw.githubusercontent.com/lnspace/jason/master/csv/input_1.csv",1);
     document.getElementById("M3").onkeyup = calculate_2;
+    Array.prototype.slice.call(document.getElementsByTagName("li")).forEach(function(l){
+        l.ontouchend = function(e){
+            e.stopPropogation();
 
+        };
+    });
 };
