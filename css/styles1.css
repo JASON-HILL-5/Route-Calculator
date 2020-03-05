@@ -16,6 +16,13 @@ input{
     width: 60vw;
 }
 .row{
-    width: 50vw;
+    width: 80vw;
     margin-bottom: 0;
+}
+
+/* IPHONE */
+@media only screen and (max-width : 321px) {
+        .h1{
+            font-size: 32px;
+        }
 }
